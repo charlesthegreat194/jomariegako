@@ -1,0 +1,177 @@
+
+.navbar-brand{
+    color: white!important;
+    margin: 10px;
+    padding-left: 5em;
+    font-size: 30px!important; 
+}
+.logo{
+    height: auto;
+   max-width: 120px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 17, 17)!important; /* Set the dark background color */
+    color: #fff; /* Set text color to white */
+    font-family: Arial, sans-serif;
+}
+.custom-bg-color{
+    background-color: RGB(237, 213, 138);
+
+    
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+.slogan h3{
+    color: RGB(237, 213, 138)!important;
+}
+
+.bg-img {
+    text-align: right; /* Align image to the right */
+}
+
+.bg-img img {
+    max-width: 70%; /* Limit image width */
+    border-radius: 50%;
+    border: 2px solid RGB(237, 213, 138)!important;
+    
+    
+}
+.main{
+    
+    margin-top: 5em;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.main .slogan{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    position: relative;
+}
+#half{
+    background-color: white;
+    height: 100vh;
+}
+.btn{
+    border: 1px solid RGB(237, 213, 138)!important;
+   font-size: 18px!important;
+   padding: 15px!important;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    width: 150px;
+    color: RGB(237, 213, 138)!important;
+    display: inline-flex;
+   
+    
+}
+.btn:hover{
+    color: rgb(18, 17, 17)!important;
+    background-color: RGB(237, 213, 138)!important;
+}
+@media screen and (max-width: 768px) {
+    .navbar-brand  {
+        padding-left: 2em; /* Adjust padding for smaller screens */
+        font-size: 24px !important; /* Adjust font size for smaller screens */
+        text-align: center!important;
+        justify-content: center;
+        margin: 0;
+    }
+    .logo{
+        max-width: 64px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-brand a{
+        padding-left: 2em; /* Adjust padding for smaller screens */
+        font-size: 24px !important; /* Adjust font size for smaller screens */
+        text-align: center!important;
+        justify-content: center;
+    }
+    
+    .main {
+        flex-direction: column; /* Stack elements vertically for smaller screens */
+        text-align: center; /* Center text */
+        align-items: center;
+       
+    }
+    
+    .bg-img img {
+        
+        max-width: 100%; /* Make image responsive */
+        margin: 0; /* Remove right margin */
+        margin-bottom: 3em;
+        place-items: center;
+        justify-content: center;
+        place-items: center;
+        right: 50%;
+        left: 50%;
+        
+
+    }
+    .bg-img{
+        place-items: center;
+        justify-content: center;
+        place-items: center;
+        right: 50%;
+        left: 50%;
+        
+    }
+    
+    .btn {
+        width: auto; /* Remove fixed width */
+        margin: 10px auto; /* Center the button horizontally */
+        
+    }
+    .slogan {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .slogan {
+        order: 2; /* Swap order of text and image */
+        margin-bottom: 10em;
+        font-size: large;
+    }
+
+    .image-container {
+        margin-top: 0; /* Reset margin */
+    }
+}
+
+#gallery{
+        margin-top:30px ;
+        margin-bottom: 30px;
+}
+.pic {
+    margin-top: 30px;
+    width: 300px; /* Set the width for all images */
+    height: 400px; /* Set the height for all images */
+    margin-bottom: 30px;
+    border-radius: 30px;
+    
+}
+@media (max-width: 768px) {
+    .pic {
+        width: 100%; /* Set the width to 100% for smaller screens */
+        height: auto; /* Let the height adjust automatically */
+        margin-top: 15px; /* Adjust top margin for spacing */
+        margin-bottom: 15px; /* Adjust bottom margin for spacing */
+    }
+    gallery{
+        margin-top:30px ;
+        margin-bottom: 30px;
+}
+}
+
